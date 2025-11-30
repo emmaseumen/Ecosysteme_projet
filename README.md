@@ -10,6 +10,13 @@ Les entites utilisent un Vector2D(x, y) pour se deplacer
 
 ### Detection de nourriture ###
 Chaque entite peut detecter la nourriture grace a la fonction SeekFood
+```cpp
+```
+
+### pour rester dans la fenetre(StayInBoungt)
+Cette fonction permet aux entites de rester dans la fenetre 
+```cpp
+```
 
 # 📰📰 STRUCTURE DU PROGET #
 ecosystem_simulator/ 
@@ -34,7 +41,7 @@ ecosystem_simulator/
 └── README.md 
 
 #### Exemple de vector 2D ####
-```
+```cpp
 struct Vector2D { 
     float x; 
     float y; 
@@ -53,3 +60,64 @@ struct Vector2D {
         return Vector2D(x * scalar, y * scalar); 
 }
 ```
+#### Exemple de SeekFood ####
+```cpp
+
+```
+
+# 📰📰 FICHIER DU PROJET #
+## Include/Core/Ecosystheme.h ##
+```cpp
+```
+
+## Include/Core/Entity.h ##
+```cpp
+```
+
+## Include/Core/GameEngine.h
+```cpp
+```
+
+## Include/Core/Structs.h ##
+```cpp
+```
+
+## Include/Graphics/Renderer.h ##
+```cpp
+```
+
+## Include/Graphics/Window.h ##
+```cpp
+```
+
+## src/Core/Ecosysteme.cpp ##
+```cpp
+```
+
+## src/Core/Entity.cpp ##
+```cpp
+```
+
+## src/Core/GameEngine.cpp ##
+```cpp
+```
+
+## src/Graphics/Renderer.cpp ##
+```cpp
+```
+
+## src/Graphics/Window.cpp ##
+```cpp
+```
+## Main.cpp ##
+```cpp
+```
+## 👌👌 CONCEPT APPRIS DANS CE PROJET ##
+- La programmation orientee objet(classes, methodes)
+- Gestion de vector 2D
+- Boucle, condition, distance
+- Organisation d un proget en c++
+
+## 👌👌 CONCEPT MATHEMATIQUE APPRIS ##
+- Algebre 2D
+- Calcul vectoriel
