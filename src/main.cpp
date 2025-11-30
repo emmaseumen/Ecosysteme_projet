@@ -1,7 +1,3 @@
-#include "Core/GameEngine.h" 
-#include <iostream> 
-#include <cstdlib> 
-#include <ctime> 
 int main(int argc, char* argv[]) { 
     // �� Initialisation de laléatoire 
     std::srand(static_cast<unsigned int>(std::time(nullptr))); 
