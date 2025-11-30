@@ -69,6 +69,15 @@ ecosystem_simulator/
 │   └── (futures textures) 
 └── README.md 
 
+## Commande de compilation ##
+Avec g++:
+g++ -std=c++17 -Iinclude -o ecosystem src/*.cpp src/Core/*.cpp src/Graphics/*.cpp 
+Avec clang++
+clang++ -std=c++17 -Iinclude -IC:/msys64/ucrt64/include -LC:\msys64\ucrt64\lib -o ecosystem src/*.cpp src/Core/*.cpp src/Graphics/*.cpp -lSDL3
+
+## Execution ##
+./ecosystem
+
 #### Exemple de vector 2D ####
 ```cpp
 struct Vector2D { 
